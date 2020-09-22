@@ -20,7 +20,7 @@ if(window.location.href.includes("quizlet.com")) {
       createAlert("Unsupported Game", "Please try another gamemode", '<button class="UIButton" id="OKbutton" type="button"><span class="UIButton-wrapper"><span>OK</span></span></button>');
       getId("OKbutton").addEventListener("click", function() {
         document.getElementById("customMessageContainer").remove();
-      }
+      })
   }
 }
 
